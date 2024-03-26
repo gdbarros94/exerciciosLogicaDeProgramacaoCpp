@@ -16,3 +16,15 @@ int main() {
     
     return 0;
 }
+#include <stdio.h>
+
+int main() {
+    int num;
+    
+    printf("Digite um numero: ");
+    scanf("%d", &num);
+    
+    printf("%d\n", num % 2 == 0);
+    
+    return 0;
+}
